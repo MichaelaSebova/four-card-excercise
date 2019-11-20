@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Four card feature section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <section id="main">
+    <div class="container text-center mt-2">
+      <div class="col">
+        <h1>Reliable, efficient delivery</h1>
+        <h1 class="fat-text">Powered by Technology</h1>
+        
+        <div class="m-3">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section id="cards">
+    <div class="container d-flex justify-content-around">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-4">
+          <div id="firstcard" class="p-4 m-4 m-md-1 rounded card-style">
+            <h3 class="fat-text">Supervisor</h3>
+            <p>Monitors activity to identify project roadblocks</p>
+            <div class="row justify-content-end pr-4"><img src="images/icon-supervisor.svg" alt="" class="img-fluid"> </div>
+            
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div id="secondcard" class="p-4 red m-4 m-md-1 rounded card-style">
+                <h3 class="fat-text">Team Builder</h3>
+                <p>Scans our talent network to create the optimal team for your project</p> 
+                <div class="row justify-content-end pr-4"><img src="images/icon-team-builder.svg" alt="" class="img-fluid"></div>
+                
+            </div>
+            <div id="thirdcard" class="p-4 m-4 mt-5 m-md-1 mt-md-5 rounded card-style">
+                <h3 class="fat-text">Karma</h3>
+                <p>Regularly evaluates our talent to ensure quality</p>
+                <div class="row justify-content-end pr-4"><img src="images/icon-karma.svg" alt="" class="img-fluid"> </div>
+                
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div id="fourthcard" class="p-4 m-4 m-md-1 rounded card-style">
+                <h3 class="fat-text">Calculator</h3>
+                <p>Uses data from past projects to provide better delivery estimates</p> 
+                <div class="row justify-content-end pr-4"><img src="images/icon-calculator.svg" alt="" class="img-fluid"></div>
+                
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <p class="attribution mt-3">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Michaela Šebová</a>.
+    </p>
+  </footer>
+</body>
+</html>
